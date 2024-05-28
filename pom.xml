@@ -8,15 +8,15 @@
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 <build>
-        <plugins>
-            <plugin>
-                <groupId>org.sonarsource.scanner.maven</groupId>
-                <artifactId>sonar-maven-plugin</artifactId>
-                <version>3.9.1.2184</version> <!-- Older version compatible with Java 11 -->
-            </plugin>
-        </plugins>
-    </build>
-</project>
+  <plugins>
+    <plugin>
+      <groupId>org.sonarsource.scanner.maven</groupId>
+      <artifactId>sonar-maven-plugin</artifactId>
+      <version>5.0.1.3006</version> <!-- Use an older compatible version -->
+    </plugin>
+  </plugins>
+</build>
+
 
     <name>shopping-cart</name>
     <description>Demo project for Spring Boot Shopping Cart</description>
