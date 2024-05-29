@@ -150,14 +150,14 @@
 
          <distributionManagement>
     <repository>
-      <id>maven-releases</id>
-      <name>maven-releases</name>
-      <url>https://arcadis.jfrog.io/artifactory/maven-releases/</url>
+      <id>ekart-snapshots</id>
+      <name>ekart-snapshots</name>
+      <url>https://arcadis.jfrog.io/artifactory/ekart-snapshots/</url>
     </repository>
     <snapshotRepository>
-      <id>maven-snapshots</id>
-      <name>maven-snapshots</name>
-      <url>https://arcadis.jfrog.io/artifactory/maven-snapshots/</url>
+      <id>ekart-releases</id>
+      <name>ekart-releases</name>
+      <url>https://arcadis.jfrog.io/artifactory/ekart-releases/</url>
     </snapshotRepository>
 </distributionManagement>
 
